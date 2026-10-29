@@ -1,0 +1,18 @@
+# user data and credentials — never commit
+.nightmare/
+groq_key.txt
+groq_key.txt.bak
+
+# build output and caches
+dist/
+dist_new/
+build/
+_dist_new_backup/
+__pycache__/
+*.py[cod]
+
+# config backups (main config.json is keyless and committed)
+config.json.bak
+
+# tooling
+.freebuff/
